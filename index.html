@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belle Martinée Studios</title>
+  <meta name="description" content="Belle Martinée Studios — exklusiva hoodies och kläder med stil." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav>
+    <a href="index.html" class="nav-logo">Belle <span>Martinée</span> Studios</a>
+    <ul class="nav-links">
+      <li><a href="#produkter">Produkter</a></li>
+      <li><a href="#om-oss">Om oss</a></li>
+      <li><a href="privacy-policy.html">Integritetspolicy</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="hero-bg" role="img" aria-label="Belle Martinée Studios hoodie"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="tagline">Ny kollektion 2025</span>
+      <h1>Klä dig i<br><em>äkta stil</em></h1>
+      <p>Handgjord kvalitet, ikonisk design. Välkommen till Belle Martinée Studios.</p>
+      <a href="#produkter" class="btn btn-primary">Se kollektionen</a>
+      <a href="#om-oss" class="btn btn-outline">Läs mer</a>
+    </div>
+  </section>
+
+  <!-- ── Products ── -->
+  <section class="products" id="produkter">
+    <div class="section-header">
+      <span class="label">Kollektion</span>
+      <h2>Våra produkter</h2>
+      <p>Utforska vår exklusiva linje av plagg med den ikoniska Belle Martinée-loggan.</p>
+    </div>
+    <div class="products-grid">
+      <div class="product-card">
+        <img
+          src="https://github.com/user-attachments/assets/2768f0d6-90ff-4c76-a82b-92adfa02eab2"
+          alt="Belle Martinée Studios hoodie — vinröd"
+          loading="lazy"
+        />
+        <div class="product-info">
+          <h3>Signature Hoodie</h3>
+          <p>Vinröd med ikonisk logga — klassisk komfort</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <img
+          src="https://github.com/user-attachments/assets/411d256c-28e3-4713-9ba6-4ec65ee768b4"
+          alt="Belle Martinée Studios — produkt 2"
+          loading="lazy"
+        />
+        <div class="product-info">
+          <h3>Studios Edition</h3>
+          <p>Exklusiv design för dig som syns</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <img
+          src="https://github.com/user-attachments/assets/474d3f8f-3fc8-4f4b-8125-4581618e8e82"
+          alt="Belle Martinée Studios — produkt 3"
+          loading="lazy"
+        />
+        <div class="product-info">
+          <h3>Limited Drop</h3>
+          <p>Begränsad upplaga — fånga tillfället</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <img
+          src="https://github.com/user-attachments/assets/686bef53-01ca-4917-ae1e-34f3c0094a09"
+          alt="Belle Martinée Studios — produkt 4"
+          loading="lazy"
+        />
+        <div class="product-info">
+          <h3>Premium Collection</h3>
+          <p>Premiumkvalitet för varje tillfälle</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About ── -->
+  <section class="about" id="om-oss">
+    <div class="about-inner">
+      <div class="about-img">
+        <img
+          src="https://github.com/user-attachments/assets/2768f0d6-90ff-4c76-a82b-92adfa02eab2"
+          alt="Belle Martinée Studios stil"
+        />
+      </div>
+      <div class="about-text">
+        <h2>Skapt med passion</h2>
+        <p>
+          Belle Martinée Studios är ett kreativt klädmärke som förenar hantverk,
+          konst och mode. Varje plagg är designat för att bäras med stolthet och
+          uttrycka din personlighet.
+        </p>
+        <p>
+          Vår ikoniska signaturlogga symboliserar kreativitet och äkthet —
+          värden som genomsyrar allt vi skapar.
+        </p>
+        <a href="#produkter" class="btn btn-primary" style="margin-top:0.5rem;">
+          Utforska kollektionen
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <a class="footer-logo" href="index.html">Belle Martinée Studios</a>
+    <ul class="footer-links">
+      <li><a href="#produkter">Produkter</a></li>
+      <li><a href="#om-oss">Om oss</a></li>
+      <li><a href="privacy-policy.html">Integritetspolicy</a></li>
+      <li><a href="privacy-policy.html#cookies">Cookiepolicy</a></li>
+    </ul>
+    <p class="copyright">&copy; <span id="footer-year"></span> Belle Martinée Studios. Alla rättigheter förbehållna.</p>
+  </footer>
+
+  <!-- ── Cookie Banner ── -->
+  <div id="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie-samtycke">
+    <span class="cookie-icon" aria-hidden="true">🍪</span>
+    <div class="cookie-body">
+      <h3>Vi använder cookies</h3>
+      <p>
+        Vi använder cookies för att förbättra din upplevelse på vår webbplats och för att
+        analysera trafik. Läs mer i vår
+        <a href="privacy-policy.html#cookies">cookiepolicy</a> och
+        <a href="privacy-policy.html">integritetspolicy</a>.
+      </p>
+      <div class="cookie-actions">
+        <button id="cookie-accept" class="btn-cookie-accept">Godkänn alla</button>
+        <button id="cookie-decline" class="btn-cookie-decline">Neka</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="cookie.js"></script>
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
